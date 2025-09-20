@@ -9,8 +9,9 @@
 ```
 git clone https://github.com/blemli/swiss-car-types
 cd swiss-car-types
-uv venv 
-pip install -r requirements.txt
+pythom -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
 python update.py
 ```
 
